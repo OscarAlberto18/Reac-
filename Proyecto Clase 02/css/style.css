@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(244, 197, 197);
+    align-items: center;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    font-weight: 500;
+    padding: 10px;
+}
+.contenedor{
+    display: flex;
+    
+}
+.img{
+     width: 500px;
+     height: 500px;
+     padding: 5px;
+     border: 5px solid black;
+     margin: 5px;
+}
+p{
+   text-align: justify;
+   margin: 5px;
+}
+h1{
+    text-align: center;
+}
+.texto{
+    padding: 10px;
+
+}
+h2{
+    text-align: center;
+}
+.Cursos{
+    font-weight: bold;
+}
+.Titulos{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
