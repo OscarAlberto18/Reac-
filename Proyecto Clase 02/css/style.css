@@ -3,17 +3,41 @@
     margin: 0;
 }
 
+body{
+    
+    color: grey;
+}
+
+.destino img{
+    width: 100%;
+    height: 700px;
+}
+
+.destino h1{
+    color: black;
+    position: absolute;
+    top: 50%;
+    text-align: end;
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica;
+    
+}
+    
 header{
     display: flex;
     justify-content: space-between;
     height: 50px;
-    background-color: rgb(244, 197, 197);
+    background-color: #01579b;
     align-items: center;
     padding: 10px;
+    
     
 }
 a{
     text-decoration: none;
+    color: white;
+    
 }
 nav a{
     font-weight: 500;
@@ -26,7 +50,6 @@ nav a{
 .img{
      width: 500px;
      height: 500px;
-     padding: 5px;
      border: 5px solid black;
      margin: 5px;
 }
@@ -51,6 +74,14 @@ h2{
     font-weight: bold;
 }
 
+footer{
+    display: flex;
+    justify-content: left;
+    height: 80px;
+    background-color: grey;
+    align-items: center;
+    padding: 10px;
+}
 
 
 
